@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "sourceMap": true,
+        "declaration": true,
+        "moduleResolution": "node",
+        "rootDir": "src",
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "skipLibCheck": true,
+        "strictPropertyInitialization": true,
+        "strictBindCallApply": true,
+        "resolveJsonModule": true,
+        "outDir": "lib",
+        "declarationDir": "lib/types"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "src"
+    ]
+}
